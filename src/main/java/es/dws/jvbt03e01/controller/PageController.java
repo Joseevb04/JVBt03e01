@@ -6,9 +6,19 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class PageController {
 
-    @GetMapping("/")
+    @GetMapping({"/", "/home"})
     public String showHome() {
         return "indexView";
+    }
+
+    @GetMapping("/palmares")
+    public String showPalmares() {
+        return "palmaresView";
+    }
+
+    @GetMapping("/galeria")
+    public String showGallery() {
+        return "photoGalleryView";
     }
 
 }

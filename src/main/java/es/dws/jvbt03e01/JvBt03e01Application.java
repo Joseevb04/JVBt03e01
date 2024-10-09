@@ -1,4 +1,4 @@
-package es.dws.jvbt03e01.boot;
+package es.dws.jvbt03e01;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
